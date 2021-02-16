@@ -1,0 +1,125 @@
+
+/*Responsive Design*/
+
+@media (max-width: 760px){
+	.container {
+		width: 600px;
+	
+	}
+}
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+/*Global CSS*/
+
+body{
+
+	background-color: #f0f2ef;
+	color: rgb(50, 50, 50);
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 16px;
+	line-height: 1.6;
+	font-weight: lighter;
+	text-align: center;
+}
+
+h1, h2{
+	font-family: 'Titillium Web', sans-serif;
+	text-align: left;
+	font: bolder;
+}
+
+h1{
+	color: rgb(188 161 202);
+    font-size: 40px;
+    font-weight: 800
+    
+}
+h2{
+	color: rgb(188 161 202);
+    font-weight: 300;
+}
+
+a{
+	font-family: 'Nanum Gothic', sans-serif;
+	text-decoration: none;
+	color: rgb(50, 50, 50)
+
+}
+
+
+a:hover {
+	color: rgb(188 161 202)
+}
+
+
+/*Custom design with class*/
+
+.container{
+	background-color: rgb(43 51 65);
+	width: 1000px;
+	margin: 40px auto ;
+	padding: 30px;
+	border-radius: 4px;
+}
+
+.card-white{
+	margin: 30px;
+	padding: 50px;
+	background: #f0f2ef;
+	border-radius: 4px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+
+.image-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+#image-circle {
+  	border-radius: 50%;
+  	margin-top:70px;
+  	width: 400px;
+  	height: 400px;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+
+}
+
+.list-inline li {
+	display: inline;
+	padding: 40px;
+	text-align: center;
+	
+}
+
+.list-inline i{
+
+	font-size: 50px;
+	color:rgb(43 51 65);
+}
+
+.list-inline i:hover {
+	color: rgb(188 161 202)
+}
+
+#card-bottom {
+	width: 900px;
+	margin-left: 230px;
+	padding: 20px;
+	background: #f0f2ef;
+	border-radius: 4px; 
+}
+
+
+
+
+
